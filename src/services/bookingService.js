@@ -22,7 +22,7 @@ const registerBookingService =  (payload) => {
 
 const roomAvailabilityService = ({bookingTimeStamp, room}) => {
     
-    const bookingMap = JSON.parse(sessionStorage.getItem('bookingMap'))
+    const bookingMap = JSON.parse(sessionStorage.getItem('bookingMap')) || {}
     
     const out = Object.values(bookingMap).some(booking => {
         const { start, end } = booking.dateRange
