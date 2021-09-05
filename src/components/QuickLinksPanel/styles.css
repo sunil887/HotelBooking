@@ -1,0 +1,33 @@
+.quick-link-panel-item {
+    font-weight: 600;
+    font-size: 16px;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 7px;
+}
+
+.quick-link-panel-item:hover {
+    background-color: #98c7ff52;
+    color: black;
+}
+
+
+.quick-link-panel-item.selected {
+    background-color: dodgerblue;
+    color: white;
+}
+
+.quick-link-panel-item.selected:hover {
+    background-color: rgba(30, 143, 255, 0.5);
+    color: white;
+}
+
+.quick-link-panel {
+    border: 1px solid;
+    border-color: dodgerblue;
+    border-radius: 5px;
+}
+
+
+

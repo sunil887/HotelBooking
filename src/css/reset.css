@@ -1,0 +1,14 @@
+input[type=text] {
+    border: 1px solid #E5E5EA;
+    border-radius: 6px;
+    height: 35px;
+    width: 250px;
+}
+  
+input[type=text]:hover {
+    border-color: #1675E0
+}
+
+[contentEditable=true]:empty:not(:focus):before{
+    content:attr(data-text)
+}

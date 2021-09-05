@@ -1,0 +1,50 @@
+.hotel-form{
+  border: 1px solid dodgerblue;
+  padding-bottom: 10px;
+  border-radius: 3px;
+}
+
+.hotel-form-title{
+  margin-bottom: 20px;
+  padding: 10px 10px;
+  font-size: 16px;
+  font-weight: bold;
+  border-bottom: 1px solid dodgerblue;
+}
+
+.hotel-form-row {
+  margin-left: 100px;
+  margin-right: 100px;
+  padding-bottom: 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.hotel-form-label {
+  margin-right: 20px;
+  font-size: 14px;
+  font-weight: 500;
+  width: 60px
+}
+
+.form-button{
+  min-width: 50px;
+  min-height: 30px;
+  font-size: 14px;
+  border-radius: 3px;
+  background-color: white;
+  color: black;
+  border: 1px solid grey;
+}
+
+.form-button:hover {
+  box-shadow: 2px 1px #80808094;
+}
+
+.add-booking.form-button-wrapper{
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}

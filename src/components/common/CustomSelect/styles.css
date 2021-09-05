@@ -1,0 +1,76 @@
+.custom-select-option-panel-error {
+    color: red
+}
+
+.custom-select-option-panel {
+    z-index: 6;
+    position: absolute;
+    border: 1px solid #E5E5EA;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    border-radius: 3px;
+    background: white;
+    overflow: scroll;
+    max-height: 120px;
+    min-width: 250px;
+}
+
+
+.custom-select-option {
+    font-size: 12px;
+    padding: 10px;
+}
+
+.custom-select.overlay {
+    opacity:    0.5; 
+    background: rgb(207, 204, 204); 
+    width:      100%;
+    height:     100%; 
+    z-index:    5;
+    top:        0; 
+    left:       0; 
+    position:   fixed; 
+}
+
+.selected-option-content {
+    padding: 5px;
+    min-width: 200px;
+}
+
+.custom-select-search-area {
+    display: flex;
+    flex-direction: row;
+    border: 1px solid #E5E5EA;
+    border-radius: 6px;
+    padding: 5px;
+    width: 250px;
+}
+
+
+.custom-select-search-area:hover  {
+    border: 1px solid #1675E0;
+}
+
+.custom-select-search-area-arrow {
+    margin-left: 10px;
+}
+
+
+.selected-option-element {
+    border: 1px solid grey;
+}
+
+
+.custom-select-option.selected {
+    background-color: dodgerblue;
+    color: white;
+}
+
+.custom-select-option.selected:hover {
+    background-color: dodgerblue;
+    color: white;
+}
+
+.custom-select-option:hover {
+    background-color: #98c7ff52;
+    color: black;
+}

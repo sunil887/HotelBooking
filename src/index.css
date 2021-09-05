@@ -1,0 +1,14 @@
+.makeFlex{
+  display: flex;
+}
+
+.right-column {
+  margin-left: 20px
+}
+
+.appContainer {
+  margin-top: 100px;
+  margin-left: 100px;
+  display: flex;
+  flex-direction: row;
+} 
