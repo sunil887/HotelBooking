@@ -1,6 +1,7 @@
 import ROOMS from '../constants/mockAPIData/rooms'
 
 const fetchRoomsService = () => {
+    let a = 'hello'
     return Promise.resolve(ROOMS)
 }
 
